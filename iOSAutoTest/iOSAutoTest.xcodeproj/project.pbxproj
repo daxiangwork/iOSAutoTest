@@ -283,8 +283,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 宇飞 菅 (L7767H39TF)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N9X9U9A52W;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iOSAutoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,6 +294,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.motobandtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cbb04848-acd9-41ed-8135-8a682e72b537";
+				PROVISIONING_PROFILE_SPECIFIER = AutoTest;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -300,8 +304,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 宇飞 菅 (L7767H39TF)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N9X9U9A52W;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iOSAutoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +315,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.motobandtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cbb04848-acd9-41ed-8135-8a682e72b537";
+				PROVISIONING_PROFILE_SPECIFIER = AutoTest;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
